@@ -1,0 +1,31 @@
+{
+  "name": "kiratools-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/test.ts",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "automatización",
+    "busquedas",
+    "descargas",
+    "inteligencia artificial",
+    "herramientas",
+    "KiraTools",
+    "scrappers",
+    "scraper"
+  ],  
+  "author": "Braan-ztw",
+  "license": "MIT",
+  "description": "KiraTools es una librería open-source para automatizar tareas como búsquedas, descargas y herramientas con IA. Robusta y fácil de usar, ideal para desarrolladores.",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
